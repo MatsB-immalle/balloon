@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:balloon"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<Button x:Name="MijnKnop1" Content="move&#xD;&#xA;" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top" Width="89" Height="41" Click="MijnKnop1_Click" RenderTransformOrigin="0.053,0.608"/>
+		<Canvas x:Name="MijnCanvas" HorizontalAlignment="Left" Height="232" VerticalAlignment="Top" Width="464" Margin="23,77,0,0" Background="#FFE8E7E7" />
+		<Button x:Name="MijnKnop2" Content="grow&#xD;&#xA;" HorizontalAlignment="Left" Margin="398,19,0,0" VerticalAlignment="Top" Width="89" Height="41" Background="#FFE0E0E0" RenderTransformOrigin="0.506,0.011" Click="MijnKnop2_Click"/>
+
+	</Grid>
 </Window>
