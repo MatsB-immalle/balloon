@@ -41,6 +41,30 @@ namespace balloon
          
             balloon1.ChangeSize(10);
         }
+
+        private void MijnKnop3_Click(object sender, RoutedEventArgs e)
+        {
+            balloon1.MoveUp(10);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Random rnd = new Random();
+
+            balloon1.ChangeColor(rnd.Next(0, 255) , rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255));
+
+
+        }
+
+        private void moveleft_Click(object sender, RoutedEventArgs e)
+        {
+            balloon1.MoveLeft(10);
+        }
+
+        private void movedown_Click(object sender, RoutedEventArgs e)
+        {
+            balloon1.MoveDown(10);
+        }
     }
 
     
